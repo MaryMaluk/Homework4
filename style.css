@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.parent {
+	position: relative;
+	background-image: url(image/fon.jpg);
+	height: 1060px;
+	width: 1280px;
+	
+}
+.logo{
+	position: absolute;
+	top:49px;
+	left: 170px;
+}
+
+.cont{
+	position: absolute;
+	top:45px;
+	right: 160px;
+}
+
+
+.main{
+    position: absolute;
+	top:213px;
+	left: 151px;
+}
+
+
+.flags{
+    position: absolute;
+	top: 150px;
+	right: 151px;	
+}
+
+.main: after{
+	content:" ";
+	clear: both;
+	display: block;
+}
+
+.shadow: {
+	-webkit-box-shadow: 5px 13px 11px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 5px 13px 11px 0px rgba(0,0,0,0.69);
+box-shadow: 5px 13px 11px 0px rgba(0,0,0,0.69);
+	
+}
+
+ ul, li {
+        margin:0;
+        padding:0;
+        list-style-type:none; 
+        line-height:40px;
+
+	
+    }
+	
+
+    #menu {
+        display:block;
+        position:absolute;
+        top: 450px;
+        left:151px;
+		width: 1000px;
+        z-index: 10;		
+        background: #323232;
+		line-height: 40px;
+ 
+    }
+
+    #menu li {
+        display:inline-block;
+        height:40px;
+        position:relative;
+
+    }
+     
+	 #menu li a{
+		 color: #fff;
+		 text-decoration: none;
+		 padding-left: 35px;
+		 padding-right: 35px;
+		
+	 }
+	 
+
+    #menu li ul {
+        position:absolute;
+		color: #fff;
+		background: #323232;
+        top:40px;
+        display:none;  
+        text-decoration: none;	
+		-moz-box-shadow:0.7px 1px 1px #777777;
+-webkit-box-shadow:0.7px 1px 1px #777777;
+box-shadow:0.7px 1px 1px #777777;	
+       
+		
+    }
+     
+
+    #menu li:hover ul {
+        display:block; 
+		
+    }
+ p {
+	
+font-weight: bold;
+
+    text-align:  center;
+	
+}
+
+.leftColumn {
+	   font-family: sans-serif;
+width: 15%;
+margin: 0px;
+padding: 20px;
+float: left;
+position: absolute;
+top:490px;
+left: 151px;
+bottom: 34px;
+background: #edeef0;
+border-right: 1px solid gray;
+text-align:justify;
+overflow: hidden;
+}
+.centerColumn {
+
+width: 493px;
+
+margin: 0;
+padding: 20px;
+float: left;
+position: absolute;
+top:490px;
+left: 384px;
+bottom: 34px;
+background: white;
+overflow: hidden;
+}
+
+
+.rightColumn {
+   font-family: sans-serif;
+width: 15%;
+margin: 0px;
+padding: 20px;
+float: right;
+position: absolute;
+top:490px;
+right: 130px;
+bottom: 34px;
+background: #edeef0;
+border-left: 1px solid gray;
+text-align:justify;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
